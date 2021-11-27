@@ -29,6 +29,7 @@ public class TestCase1 extends ProjectSpecificWrappers {
 		.enterSearchText(searchText)
 		.clickSearchResult(searchText)
 		.getTitle();
+		new BookResultPage(driver,test).getAuthor();
 		new BookResultPage(driver,test).clickLogOut();
 		
 	}
